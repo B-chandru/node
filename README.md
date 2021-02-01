@@ -8,7 +8,6 @@
 
 ### code
 <pre>
-<code>
 var http=require("http");  
 
 http.createServer((req,res)=>{ &nbsp;// to create a server
@@ -26,5 +25,4 @@ http.createServer((req,res)=>{ &nbsp;// to create a server
     }
     
 }).listen(3000)&nbsp; // YOUR SERVER WILL LISTEN ON 3000
-</code>
 </pre>
