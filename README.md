@@ -1,7 +1,7 @@
 # node
 ## how to create a web server using node.js
 
-* first install node.js.
+* install node on your machine .
 * after installing node create a file with .js extension.
 * now using the http package in node create a web server.
 * the example is given below
