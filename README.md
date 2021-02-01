@@ -8,10 +8,10 @@
 
 ### code
 
-var http=require("http");  
+var http=require("http");  <br>
 
-http.createServer((req,res)=>{ // to create a server
-    if(req.url==="/"){
+http.createServer((req,res)=>{ // to create a server<br>
+    if(req.url==="/"){<br>
         res.end("Now you build a web server using node.js:)")
     }
     if(req.url==="/name"){
