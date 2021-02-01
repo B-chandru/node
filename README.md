@@ -8,7 +8,7 @@
 
 ### code
 
-<h4>var http=require("http");  <br>
+var http=require("http");  <br>
 
 http.createServer((req,res)=>{ &nbsp;// to create a server<br>
     if(req.url==="/"){  <br>
@@ -24,4 +24,4 @@ http.createServer((req,res)=>{ &nbsp;// to create a server<br>
         res.end(`<H1> ${new Date().toLocaleTimeString()}</H1>`); &nbsp;// u can use the browser api to display time,date,etc...<br>
     }<br>
     
-}).listen(3000)&nbsp; // YOUR SERVER WILL LISTEN ON 3000<br></h4>
+}).listen(3000)&nbsp; // YOUR SERVER WILL LISTEN ON 3000<br>
