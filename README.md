@@ -6,7 +6,7 @@
 * now using the http package in node create a web server.
 * the example is given below
 
-### code
+## code
 
 var http=require("http");</br>
 
